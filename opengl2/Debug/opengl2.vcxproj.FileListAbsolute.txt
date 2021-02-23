@@ -1,0 +1,2 @@
+E:\visual_studio\opengl2\Debug\opengl2.exe
+E:\visual_studio\opengl2\Debug\opengl2.pdb
