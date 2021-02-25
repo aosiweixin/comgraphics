@@ -57,7 +57,7 @@ int main()
 
 
 
-	Shader shader("res/shader/task3.vs", "res/shader/task3.fs");//加载着色器
+	Shader shader("task3.vs", "task3.fs");//加载着色器
 
 	std::vector<float> sphereVertices;
 	std::vector<int> sphereIndices;
