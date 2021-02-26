@@ -1,5 +1,5 @@
 /***
-* 例程  绘制球体 (MAKE后运行时可删除ALL_BUILD，也可以将Task-sphere设为默认启动工程)
+* 例程  绘制球体 (MAKE后运行时可删除ALL_BUILD，也可以将Task-sphere 设为默认启动工程)
 * 步骤:
 * 1-初始化:       GLFW窗口，GLAD。
 * 2-计算球体顶点：通过数学方法计算球体的每个顶点坐标
@@ -32,7 +32,7 @@ int main()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);                  // OpenGL版本为3.3，主次版本号均设为3
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);  // 使用核心模式(无需向后兼容性)
-	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);            // 如果使用的是Mac OS X系统，需加上这行
+	//glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);            // 如果使用的是Mac OS X 系统，需加上这行
 	glfwWindowHint(GLFW_RESIZABLE, false);						    // 不可改变窗口大小
 
 																	// 创建窗口(宽、高、窗口名称)
